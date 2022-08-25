@@ -1,6 +1,6 @@
 # Repositorio Programacion WEB
-    nombre: Hector
-    apellido: Jimenez
-    numeroControl: 20100219
-    semestre: 5
-    carrera: Ingenieria en Sistemas Computacionales
+    Nombre: Hector
+    Apellido: Jimenez
+    NumeroControl: 20100219
+    Semestre: 5
+    Carrera: Ingenieria en Sistemas Computacionales
