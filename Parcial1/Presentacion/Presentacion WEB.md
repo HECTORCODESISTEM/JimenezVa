@@ -4,31 +4,50 @@
 Mi nombre es **Hector Jimenez Valenzuela** 
 
 Estudiante del **Instituto Tecnologico de Nuevo Laredo** 
-Numero de control **20100219** 
-Carrera Ingenieria en **Sistemas**
+,Numero de control **20100219** 
+,Carrera Ingenieria en **Sistemas**
 
-Durante mis Estudios eh estado en diversas instituciones / escuelas:
+> Durante mis Estudios eh estado en diversas _instituciones / escuelas_:
 ####  Kinder: 
-###### - Colegio CumberLand 
+###### 1. Colegio CumberLand 
 ####  Primaria: 
-###### - Colegio CumberLand  
-###### - Colegio Mexico 
-###### - Primaria Carmen U. de Rendon
-###### - Primaria General Simon Bolivar
+###### 1. Colegio CumberLand  
+###### 2. Colegio Mexico 
+###### 3. Primaria Carmen U. de Rendon
+###### 4. Primaria General Simon Bolivar
 ####  Secundaria:
-###### - Secundaria Gral. Boone Flores No.1
+###### 1. Secundaria Gral. Boone Flores No.1
 ####  Preparatoria
-###### - Cbtis No.137
-###### - Veterans Memorial High School
-###### - Preparatoria Municipal Josevas Concelos 
+###### 1. Cbtis No.137
+###### 2. Veterans Memorial High School
+###### 3. Preparatoria Municipal Josevas Concelos 
 
 ### Experiencia Laboral:
-###### - Compra y Venta de Metales 
-###### - Venta de productos de segunda mano
-###### - KFC (Empleado general y Entrenador)
 
-### Lenguaje de programacion que domino
+| Trabajo                           | Puesto                        | 
+| --------------------------------- |:-----------------------------:| 
+| Compra y venta de Metales         | Vendedor                      |  
+| Calle Once                        | Publicidad en Facebook        |
+| Kentucky Fried Chicken            | Empleado General y Entrenador | 
+
+### Lenguaje de programacion que domino:
 ###### - C#
+
+### tecnologías o lenguajes Me gustaría aprender:
+###### - Python
+###### - C++
+###### - Unity
+###### - Unreal Engine
+###### - Deep Learning
+
+### Futuro a Especialisarse
+###### - Desarrollo WEB
+###### - Base de Datos
+###### - Diseño Grafico
+
+### HOBBIES
+###### - Dibujar :art:
+
 
 
 
