@@ -4,6 +4,7 @@
 
 >"El modelo de caja CSS es un módulo CSS que define cajas rectangulares, incluyendo sus rellenos y márgenes, que son generadas para los elementos y que se disponen de acuerdo al modelo de formato visual"
 
+Una cosa realmente importante para recordar al escribir CSS, o al trabajar en la web en general, es que todo lo que muestra CSS es una caja. Ya sea que uses **[border-radius]** en una caja para que se parezca a un círculo, o incluso solo un texto: la clave a recordar es que todo es una caja.
 
 Las cajas se componen de áreas de modelo de caja distintas que realizan un trabajo específico.
 **Esta compuesta por:**
@@ -47,3 +48,4 @@ La caja de borde son los límites de su caja y el filo del borde es el límite d
 - La caja de borde es el marco, que proporciona un borde literal para la obra de arte.
 - La caja de margen es el espacio entre cada cuadro.
 - La sombra ocupa el mismo espacio que la caja de margen.
+
