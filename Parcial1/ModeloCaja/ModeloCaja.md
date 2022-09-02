@@ -27,16 +27,16 @@ Este es la ultima es la ultima area de la Caja que se puede ver como una separac
 
 ## Ejemplo de codigo
 
-dy {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  /*  scale the whole thing here  */
-  font-size: min(2vmax, 2rem);
-  gap: 0 5vmin;
-}
+    dy {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*  scale the whole thing here  */
+    font-size: min(2vmax, 2rem);
+    gap: 0 5vmin;
+    }
 
 @media (orientation: landscape) {
   body {
