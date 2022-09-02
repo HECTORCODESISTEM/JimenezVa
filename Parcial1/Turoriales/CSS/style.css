@@ -1,0 +1,81 @@
+#titulo 
+{
+    color: crimson;
+}
+
+p.especial 
+{
+    color: green;
+}
+
+p.texto 
+{
+    color: purple;
+}
+
+div p 
+{
+    color: coral;
+}
+
+div h2, div h3 
+{
+    color: brown;
+}
+
+* 
+{
+    /* Solo cambia las propiedades si estas no se han cambiado/especificado antes*/
+    font-size: 24px;
+    color: black;
+}
+
+/* ---- Conversion hexadecimal-----
+.color 
+{
+    color: #000000;
+}
+------------RGB-----
+.color 
+{
+    color: rgb(33, 146, 155);
+}
+*/
+.color
+{
+    /* border: 5px gold groove */
+    /*
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+    */ 
+    border-style: solid;
+    border-color: crimson;
+    border-radius: 5px;
+    border-width: 7px; /* em,rm,cm,pc */
+}
+
+
+#fondo 
+{
+    font-style: italic;
+    font-size: 70px;
+    color: aliceblue;
+    background-color: rgba(255, 0, 0 );
+    /* opacity : 0.3; */
+    background-image: url('SPACE.jpg');
+    background-size: cover;
+    height: 300px; 
+}
+
+
+table {border: 2px solid brown}
+thead > tr {background-color: aquamarine ; color: darkred;}
+tbody > :hover {background-color: crimson;}

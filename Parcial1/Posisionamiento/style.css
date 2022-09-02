@@ -1,0 +1,24 @@
+.CajaRelativa
+{
+    position: relative;
+    left: 100px;
+    width: 500px;
+    height: 500px;
+    border: 10px ridge  crimson;
+    overflow:scroll;
+}
+.CajaAbsoluta
+{
+    position: absolute;
+    top: 4000px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    border: 4px dotted rgb(130, 20, 220);
+    background-color: palevioletred;
+    
+}
+
+/*  postion     
+    _________________________________________________
+*/
