@@ -1,6 +1,10 @@
 
 # Modelo Caja en Css
 ![modelocaja](/Parcial1/ModeloCaja/MDC.jpg)
+
+>"El modelo de caja CSS es un módulo CSS que define cajas rectangulares, incluyendo sus rellenos y márgenes, que son generadas para los elementos y que se disponen de acuerdo al modelo de formato visual"
+
+
 Las cajas se componen de áreas de modelo de caja distintas que realizan un trabajo específico.
 **Esta compuesta por:**
 - Margin (Márgenes). 
@@ -24,9 +28,16 @@ La caja de borde son los límites de su caja y el filo del borde es el límite d
 #### 4. Margin / Margen
 
  Es el espacio alrededor de tu caja, definida por la regla de **[margin]**. Propiedades como el **[outline]** y **[box-shadow]** ocupan este espacio porque están pintadas por encima de los elementos, por lo que no afectan el tamaño de nuestra caja. Puedes tener un **[outline-width]** de **200px** en nuestra caja y todo lo que está dentro e incluido la caja de borde sería exactamente del mismo tamaño.
+ ##### Ejemplo basico de Una Caja
+    p {
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid;
+    }
 
 
-## Ejemplo de codigo
+## Ejemplo Visual
 
 ![ejemplo1.1](/Parcial1/ModeloCaja/EjMDC.png)
 
