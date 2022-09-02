@@ -27,19 +27,10 @@ Este es la ultima es la ultima area de la Caja que se puede ver como una separac
 
 ## Ejemplo de codigo
 
-
-<article dir="ltr">
-  <figure id="box_model">
-    Content Box
-    <span class="vertical scrollbar"></span>
-    <span class="horizontal scrollbar"></span>
-  </figure>
-</article>
-
-<form action="">
-  <label for="show_scrollbars">Show scrollbars?</label>
-  <input id="show_scrollbars" type="checkbox">
-  
-  <label for="inline_scrollbars">Inline scrollbars?</label>
-  <input id="inline_scrollbars" type="checkbox">
-</form>
+#### Para Comprender esta analogia :
+![ejemplo1.1](/Parcial1/ModeloCaja/EjMDC.png)
+- La caja de contenido es la obra de arte.
+- La caja de padding es el blanco mate, entre el marco y la obra de arte.
+- La caja de borde es el marco, que proporciona un borde literal para la obra de arte.
+- La caja de margen es el espacio entre cada cuadro.
+- La sombra ocupa el mismo espacio que la caja de margen.
