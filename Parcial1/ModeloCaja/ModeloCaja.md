@@ -1,3 +1,3 @@
 
 # Modelo Caja en Css
-![modelocaja](/ModeloCaja/MDC.jpg)
+![modelocaja](/Parcial1/ModeloCaja/MDC.jpg)
