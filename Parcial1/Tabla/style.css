@@ -1,0 +1,21 @@
+
+*
+{
+    font-size: 20px;
+    color: black;
+    
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse ;
+  }
+
+  table, th, td {
+    border: 1px solid;
+  }
+
+table {border: 2px solid rgb(42, 165, 95)}
+thead > tr {background-color: rgb(15, 108, 31) ; color: rgb(255, 255, 255);}
+tbody > :hover {background-color: rgb(226, 255, 5);}
+
