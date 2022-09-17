@@ -1,0 +1,84 @@
+body
+{
+    background-color: darkgray;
+    font-size: 20px;
+}
+
+.contenedor
+{
+    width: 90%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color:aliceblue;
+    flex-wrap: wrap;
+ 
+}
+
+
+.caja
+{
+    background-color:rgba(152, 115, 72, 0.978);
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    text-align: center ;
+    padding: 10px;
+    transform: rotate(-90deg)
+    
+}
+
+.caja:hover
+{
+    flex-grow: 10;
+    transition: 0.8s;
+}
+.caja:hover
+{
+   transform: rotate(0);
+
+}
+
+
+#caja1
+{
+   background-color: brown; 
+}
+#caja2
+{
+   background-color: orange; 
+}
+#caja3
+{
+   background-color:coral; 
+}
+#caja4
+{
+   background-color:cornflowerblue; 
+}
+#caja5
+{
+   background-color:green; 
+}
+#caja6
+{
+   background-color:chartreuse; 
+   color: black;
+}
+#caja7
+{
+   background-color:darkorchid; 
+}
+#caja8
+{
+   background-color:lightseagreen; 
+}
+#caja9
+{
+   background-color:sandybrown; 
+}
