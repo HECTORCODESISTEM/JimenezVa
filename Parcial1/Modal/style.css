@@ -1,0 +1,122 @@
+
+div.sidebar  
+{
+    position:relative;
+    width: 200px;
+    height: 100%;
+    overflow: auto;
+    display:inline;
+}
+
+
+a 
+{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+
+a:hover
+{
+    background-color:goldenrod;
+    color: whitesmoke;
+}
+
+ul 
+{
+    list-style: none;
+}
+
+div.content 
+{
+    background-color: palegoldenrod;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 1px 100px;
+    height: 50%;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 600px) 
+{
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+.contenedor-elementos 
+{
+    background-color:brown;
+    color: aliceblue;
+}
+
+.subcontenedor 
+{
+    background-color:darkgray;
+    display: none;
+    padding-left: 0;
+}
+
+ul > li:hover > ul
+{
+    display: block;
+}
+
+.ventanaModal 
+{
+    position: fixed;
+border: 2px;
+border-color: crimson;
+    background-color:coral;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 1px;
+    left: 30%;
+    top: 5px;
+
+
+}
+
+.ventanaModal:target {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.ventanaModal > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px;
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+}
+
+.botonAbrir:hover {
+    color: white;
+}
+.botonCerrar
+{
+    text-align: center;
+}
+
+.botonCerrar:hover {
+    text-align: center;
+    background-color:red;
+    color: white;
+    
+}
+
+#Des {
+    background-color:orangered;
+    border: dotted 5px black;
+    border-radius: 10px;
+    padding: 10px;
+}
