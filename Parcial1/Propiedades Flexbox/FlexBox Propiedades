@@ -39,4 +39,4 @@ Para empezar a utilizar flexbox lo primero que debemos hacer es conocer algunos 
 | flex-end    | Agrupa los ítems al final del eje principal. |
 | flex-shrink | Especifica cuanto va a decrecer un flex item relativo al resto de flex items dentro del mismo container |
 | order       | Especifica el orden de los flex items dentro del mismo container |
-| stretch      | 	Estira los ítems para ocupar de forma equitativa todo el espacio. |
+| stretch     | 	Estira los ítems para ocupar de forma equitativa todo el espacio. |
