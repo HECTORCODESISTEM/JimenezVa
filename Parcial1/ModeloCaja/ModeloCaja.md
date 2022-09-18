@@ -1,6 +1,5 @@
 
 # Modelo Caja en Css
-![modelocaja](/Parcial1/ModeloCaja/MDC.jpg)
 
 >"El modelo de caja CSS es un módulo CSS que define cajas rectangulares, incluyendo sus rellenos y márgenes, que son generadas para los elementos y que se disponen de acuerdo al modelo de formato visual"
 
