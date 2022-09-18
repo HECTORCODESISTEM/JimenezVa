@@ -1,5 +1,5 @@
 # Propiedades Flexbox 
-![image](/PropiedadesFlexbox/image.png)
+
 Para empezar a utilizar flexbox lo primero que debemos hacer es conocer algunos de los elementos básicos de este nuevo esquema, que son los siguientes:
 
 -Contenedor: Es el elemento padre que tendrá en su interior cada uno de los ítems   flexibles. Observa que al contrario que muchas otras estructuras CSS, por norma general, en Flex establecemos las propiedades al elemento padre.
