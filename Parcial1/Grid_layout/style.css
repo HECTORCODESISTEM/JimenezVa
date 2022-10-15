@@ -1,0 +1,54 @@
+.contenedor
+{
+    width: 90%;
+    height: 20%;
+    border: 2px solid black;
+    display: grid;
+    background-color:aqua;
+    grid-template-columns: 33px 33px 33px;
+    grid-template-rows : 20px 20px 20px 20px;
+    grid-template-areas: 'manulet manulet manulet'
+                        'encabezado encabezado encabezado'
+                        'columna1 columna1 '
+                        'columna2 columna2 '
+                        'pie pie pie';
+    justify-content:stretch;
+    align-content: stretch;
+    justify-items: stretch;
+    align-items: stretch;
+    
+ 
+}
+
+.caja
+{
+    background-color:rgba(72, 99, 152, 0.978);
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    text-align: center ;
+    padding: 10px;
+    border: dotted 5px blue;
+}
+
+
+#caja1 {grid-area:menulat;background-color: brown;}
+#caja2 {grid-area:encabezado;background-color: green}
+#caja3 {grid-area:columna1;background-color: purple}
+#caja4 {grid-area:columna2;background-color:darkcyan }
+#caja5 {grid-area:pie;background-color:coral}
+
+
+@media screen and (max-width:900px) 
+{
+    .contenedor{
+    grid-template-columns: 33px 33px ; 
+    grid-template-rows: 20px 20px 20px 20px ; 
+    grid-template-areas: 'manulet manulet manulet'
+                        'encabezado encabezado encabezado'
+                        'columna1 columna1 '
+                        'columna2 columna2 '
+                        'pie pie pie';
+    } 
+}

@@ -1,0 +1,81 @@
+.contenedor
+{
+    width: 90%;
+    height: 20%;
+    justify-content:center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 50px;
+    display: grid;
+    flex-direction: row;
+    background-color:aqua;
+    flex-wrap: wrap;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows : 150px 150px 150px;
+
+ 
+}
+
+.caja
+{
+    background-color:rgba(72, 99, 152, 0.978);
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    text-align: center ;
+    padding: 10px;
+    border: dotted 5px blue;
+    
+    
+}
+
+#caja5
+{
+    background-color: rgba(0, 0, 0, .0);
+    color: rgba(0, 0, 0, .0) ;
+    border-color: rgba(0, 0, 0, .0);
+}
+
+#caja1
+{
+    background-image: url('mm3\ \(1\).jpg');
+    background-size: cover;
+}
+#caja2
+{
+    background-image: url('mm3\ \(2\).jpg');
+    background-size: cover;
+}
+#caja3
+{
+    background-image: url('mm3\ \(3\).jpg');
+    background-size: cover;
+}
+#caja4
+{
+    background-image: url('mm3\ \(4\).jpg');
+    background-size: cover;
+}
+
+#caja6
+{
+    background-image: url('mm3\ \(6\).jpg');
+}
+#caja7
+{
+    background-image: url('mm3\ \(7\).jpg');
+    background-size: cover;
+}
+#caja8
+{
+    background-image: url('mm3\ \(8\).jpg');
+    background-size: cover;
+}
+#caja9
+{
+    background-image: url('mm3\ \(5\).jpg');
+    background-size: cover;
+}
+
+

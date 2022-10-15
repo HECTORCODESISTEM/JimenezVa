@@ -26,7 +26,6 @@ h1
 }
 
 
-
 .caja
 {
     background-color:rgba(152, 115, 72, 0.978);
@@ -51,10 +50,6 @@ h1
 
 }
 
-input{display: none;}
-input:checked + .contenedor{
-   display :none;
-}
 
 #caja1
 {

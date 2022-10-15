@@ -1,0 +1,13 @@
+.boton1
+{
+    background-color:rgba(72, 99, 152, 0.978);
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    text-align: center ;
+    padding: 10px;
+    border: dotted 5px blue;
+    
+    
+}

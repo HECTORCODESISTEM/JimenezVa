@@ -25,7 +25,19 @@ h1
    left: 299px;
 }
 
-
+.content
+{
+   width: 5%;
+   height: 2%;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid black;
+   padding: 10px;
+   display: flex;
+   flex-direction: row;
+   background-color:aliceblue;
+   flex-wrap: wrap;
+}
 
 .caja
 {
