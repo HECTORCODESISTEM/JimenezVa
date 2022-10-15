@@ -5,31 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href="style.css">
-    <script>src="jquery-3.6.1.min"</script>
+
     <title>Document</title>
 </head>
 <body>
-
-    <div id="cont" class="contenedor">
-        <div id = "miboton1" class = "boton"> Botton  </div>
-    </div>
-
-</body>
-
-<script type="text/javascript">
-    window.onload = function()
-    {
-        document.getElementById("miboton1").onclick = function(){ (alert("click en boton 1") )};
-        
-    }
-
     
-    $(document).ready(function()
-    {
-        $('miboton1').click(function()
-        {
-            alert('Se escucho el click con la libreria Query')
-        })
-    })
-</script>
+    <h1>Hola Usuario</h1>
+
+
+    <p class="texto" id="primero"> 1 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Ipsum vel assumenda eaque amet minima quidem modi dolorem laudantium 
+    recusandae voluptatibus minus eos non sed nihil, aperiam quisquam odio
+     corrupti sapiente!</p>
+     <p class="texto" id="segundo"> 2 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Ipsum vel assumenda eaque amet minima quidem modi dolorem laudantium 
+    recusandae voluptatibus minus eos non sed nihil, aperiam quisquam odio
+    corrupti sapiente!</p>
+    <p class="texto" id="tercero"> 3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Ipsum vel assumenda eaque amet minima quidem modi dolorem laudantium 
+    recusandae voluptatibus minus eos non sed nihil, aperiam quisquam odio
+    corrupti sapiente!</p>
+
+    <div class="contenedor">
+        <h3 id="broma">Hola soy una caja, no me acerques el mouse me da miedo!!</h3>
+        </div>
+   
+     
+    <button id="boton1">Alerta</button>
+    <button id="boton2">Desaparecer texto</button>
+    <button id="boton3">Aparecer texto</button>
+    <button id="boton4">Chasquear dedos</button>
+
+     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+     <script src="main.js"></script>
+   
+</body>
 </html>
