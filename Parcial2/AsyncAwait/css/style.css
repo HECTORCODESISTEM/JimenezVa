@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Disney;
+    src: url(Walter.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #7fb7ff;
+    color: #000000;
+    width: 100vw;
+    height: 65px;
+    font-size: 2.5rem;
+    font-family: 'Disney', sans-serif;
+}
+
+#contenedorInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #30419c;
+    width: 100vw;
+    height: calc(100vh - 65px);
+}
+
+#IDPeticion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 500px;
+    height: 100px;
+    font-size: 1.5rem;
+    background-color: rgb(6, 247, 255);
+    border: none;
+    padding-top: 25px;
+}
+
+#IDPeticion:hover {
+    background-color: #137b7e;
+    cursor: pointer;
+}
+
+#IDPeticion:active {
+    background-color: #c9262e;
+}
+
+#nombre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #fbfbfb;
+    width: 500px;
+    height: 100px;
+    font-size: 1.5rem;
+    padding-top: 35px;
+}
+#contexto
+{
+    background-color: #c9262e;
+    color: #fbfbfb;
+
+}
+#imagen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    image-resolution: 500px;
+}
+
+#pelicula {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #64bcf3;
+    width: 500px;
+    height: 50px;
+    font-size: 1.5rem;
+}
